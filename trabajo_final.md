@@ -1,4 +1,4 @@
-#Introducción
+## Introducción
 
 El presente documento describe el código utilizado en el desarrollo de la aplicación Diccionario Quichua Santiagueño. La misma fue desarrollada luego de un pequeño trabajo de investigación, tanto en bibliografía como algunos tutoriales Online.
 Uno de los apoyos fundamentales para este programa fue el tutorial de Tkinter + SQLite, al que puede accederse en este [link](https://www.youtube.com/watch?v=W2kAF9pKPPE). No tanto por lo que desarrolla sobre la librería Tkinter, ya que la vimos en profundidad en clase. Lo más interesante fue ver la manera en que el programador trabaja el software definiendo algunas funciones y desarrollando una clase (Class) central para el mismo. Además, permitió conocer algunas de las herramientas fundamentales de la librería sqlite3.
@@ -6,7 +6,7 @@ Desde la página web StackOverflow y desde la bibliografía oficial de Python se
 Sin más, entramos directamente en el programa. La idea central consiste en un pequeño (y rudimentario) diccionario, que permita conocer el significado de algunas palabras en quichua. Además, debería permitir ver el listado de palabras, para poder editarlas, agregar algunas nuevas o incluso eliminarlas. A su vez, editar y agregar palabras requiere de una ventana particular para cada acción. Así que, en una Class que se denominó Diccionario fuimos desarrollando una a una las funciones necesarias para el programa.
 A continuación, detallaremos estas funciones una por una. El orden elegido para la exposición es el de las ventanas que el potencial usuario de la aplicación se iría encontrando.
 
-Ventana principal
+## Ventana principal
 
 La ventana principal del programa se inicia luego de comprobar que el programa está siendo ejecutado en primer plano. Lo compruebo con las palabras reservadas \_\_name__ y \_\_main__. Lo hice de esta forma siguiendo las sugerencias de buenas prácticas en la programación orientada a objetos. De esta manera, se podrían importar algunas de las funciones de este programa a cualquier otro proyecto en Python sin mayores problemas. El código queda de la siguiente manera:
 
